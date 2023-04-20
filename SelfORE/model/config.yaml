@@ -1,0 +1,16 @@
+batch_size: 16
+k: 5
+# cluster: 'kmeans'
+cluster: adpative_clustering
+loop: 5
+epoch: 4
+sentence_path: 'data/input.json'
+# sentence_path: '../datasets/TypeRE/typere_dev_sent_small.txt'
+bert_max_len: 128
+
+# New config vars
+model_path: 'SelfORE/data/mobilebert_model_pdfs.pt'
+typere_path: '../../data/TypeRE'
+
+test:
+  sentence_path: '../datasets/TypeRe/typere_test_sent.txt'

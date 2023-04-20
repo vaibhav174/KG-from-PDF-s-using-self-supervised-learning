@@ -1,0 +1,11 @@
+allennlp==2.9.3
+allennlp-models==2.9.3
+cached-path==1.1.2
+bcubed==1.5
+langdetect==1.0.9
+matplotlib==3.5.2
+networkx==2.8.3
+pymupdf==1.19.6
+spacy==3.2.4
+torch==1.11.0
+transformers==4.17.0

@@ -1,0 +1,7 @@
+# local files
+*__pycache__
+*.DS_Store
+.vscode/
+
+# temp files
+data/input.txt
